@@ -7,7 +7,15 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
+p {
+  cursor: pointer;
+  color: red
+}
 
+p:hover {
+  text-decoration: underline;
+  border: 1px solid blue ;
+}
 .end{
   color: pink;
 }
